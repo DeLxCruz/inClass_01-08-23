@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+    grid-template-areas:
+        "header header header"
+        "aside main main"
+        "aside main main";
+}
+
+header {
+    grid-area: header;
+    border: 2px solid red;
+}
+
+aside {
+    grid-area: aside;
+    border: 2px solid red;
+}
+
+main {
+    grid-area: main;
+    border: 2px solid red;
+}

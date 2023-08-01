@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    border: 2px solid red;
+    text-align: center;
+    padding: .5rem 2rem;
+}
